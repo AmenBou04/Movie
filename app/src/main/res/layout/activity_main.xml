@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisir un film"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:id="@+id/plain_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Gun" />
+    <CheckBox
+        android:id="@+id/serif_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oppenheimer"
+        android:typeface="serif" />
+    <CheckBox
+        android:id="@+id/bold_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forrest Gump"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/italic_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinema Paradiso"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="watch" />
+</LinearLayout>
